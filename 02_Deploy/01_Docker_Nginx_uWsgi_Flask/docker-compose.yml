@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  nginx_uwsgi_flask:
+    build: .
+    container_name: nginx_uwsgi_flask
+    ports:
+      - "9999:9999"
+    volumes:
+      - .:/code
+    restart: always
