@@ -8,7 +8,7 @@ from BottleScrapy.news_jiemian_keji.items import NewsJiemianKejiItem
 
 
 class EpaperRmrbSpider(CrawlSpider):
-    name = 'new_jiemian_keji'
+    name = 'news_jiemian_keji'
 
     custom_settings = {
         'DOWNLOADER_MIDDLEWARES': {
